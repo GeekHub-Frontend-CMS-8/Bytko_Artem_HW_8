@@ -1,0 +1,28 @@
+body{
+font-family: "Brandon Grotesque";
+}
+a{
+  text-decoration: none;
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 970px;
+  box-sizing: border-box;
+}
+.section_title{
+  font-size: 60px;
+  color: $title_color;
+  font-weight: 300;
+}
+.special_title{
+  font-weight: 700;
+}
+.subtitle {
+  color: $dark_text;
+  font-size: 22px;
+  margin:10px 0 75px;
+}
+.main_text{
+  font-size: $main_text;
+  color: $dark_text;
+}

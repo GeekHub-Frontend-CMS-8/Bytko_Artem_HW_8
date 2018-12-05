@@ -1,0 +1,32 @@
+.web-dev{
+  background-color: #fff;
+  padding: 100px 0 50px;
+  .section_title{
+    margin-bottom: 35px;
+  }
+  .main_text{
+    margin-bottom: 50px;
+  }
+  .wrapper{
+    padding: 0 40px 0 30px;
+    display: flex;
+  }
+}
+
+.web_img{
+  margin-left: 75px;
+  align-self: center;
+}
+@media (max-width: 850px) {
+  .wrapper{
+    justify-content: center;
+  }
+  .web_img{
+    margin: 0;
+  }
+  .web-dev {
+    .section_title {
+      font-size: 55px;
+    }
+  }
+}

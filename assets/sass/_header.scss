@@ -1,0 +1,91 @@
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 50px 0 0 0;
+max-width: 970px;
+margin: 0 auto}
+
+
+.logo {
+  position: absolute;
+  i {
+    font-size: 22px;
+    color: #fff;
+  }
+}
+
+.logo_text {
+  margin-left: 10px;
+  color: #fff;
+  font-family: Cubano;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+#site-navigation {
+  display: block;
+  height: 48px;
+  text-align: right;
+}
+
+#site-navigation #main-menu,
+#site-navigation > input {
+  display: none;
+}
+
+#site-navigation > label {
+  display: block;
+  font-size: 36px;
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  width: 36px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#site-navigation > input:checked + #main-menu {
+  display: block;
+  clear: both;
+  top: 36px;
+  position: relative;
+  background: $dark_text;
+  color: #fff;
+text-align: center;
+}
+
+#site-navigation ul li {
+  display: block;
+  padding: 12px 10px;
+
+}
+
+#site-navigation a {
+  color: #fff;
+}
+#site-navigation{
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  #site-navigation {
+    height: auto;
+  }
+  #site-navigation #main-menu {
+    display: block;
+  }
+  #site-navigation > label {
+    display: none
+  }
+  #site-navigation ul li {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,20 @@
+.brand {
+  background-color: #fafafa;
+  padding: 100px 0 50px; }
+  .brand .section_title {
+    margin-bottom: 35px; }
+  .brand .main_text {
+    margin-bottom: 50px; }
+  .brand .wrapper {
+    padding: 0 40px 0 30px;
+    display: flex; }
+
+.brand_img {
+  margin-right: 55px;
+  align-self: center; }
+
+@media (max-width: 850px) {
+  .wrapper {
+    justify-content: center; }
+  .brand_img {
+    margin-right: 0; } }
